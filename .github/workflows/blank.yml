@@ -11,8 +11,8 @@ jobs:
      uses: actions/setup-node@v3
      with: 
       node-version: 14
-   - name: install dependciners
-     run: npm ci 
-   - name: build project
-     run: npm run build 
+  #  - name: install dependciners
+  #    run: npm ci 
+  #  - name: build project
+  #    run: npm run build 
      
